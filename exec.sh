@@ -15,4 +15,4 @@ docker build -t "$CONTAINER_NAME" .
 
 # Run the Docker container
 echo "Running Docker container: $CONTAINER_NAME"
-docker run --name "$CONTAINER_NAME" "$CONTAINER_NAME"
+docker run -d --name "$CONTAINER_NAME" "$CONTAINER_NAME"
